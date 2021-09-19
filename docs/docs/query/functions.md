@@ -48,6 +48,8 @@ Parses a date from the provided string, date, or link object, if possible, retur
 ```
 date("2020-04-18") = <date object representing April 18th, 2020>
 date([[2021-04-16]]) = <date object for the given page, refering to file.day>
+date(now) = <date object representing current moment>
+date(today) = <date object representing beginning of the current day>
 ```
 
 ### `number(string)`
